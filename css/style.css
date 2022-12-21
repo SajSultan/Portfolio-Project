@@ -1,40 +1,39 @@
-body {
-  font-family: 'Poppins', sans-serif;
-  color: #004AAD;
-  
+html {
+  scroll-behavior: smooth;
 }
-@media only screen and (max-width: 1000px)  {
+body {
+  font-family: "Poppins", sans-serif;
+  color: #004aad;
+}
+@media only screen and (max-width: 1000px) {
   #navigation {
     display: contents;
   }
   .icons {
     margin-left: auto;
   }
-  
 }
 @media only screen and (max-width: 600px) {
   #headline {
     position: static;
     margin: 20px;
   }
- 
+
   #categoryGrid {
     grid-template-rows: 200px 200px 200px 200px 200px;
     grid-template-columns: 1fr;
-    grid-template-areas: 
+    grid-template-areas:
       "project1"
       "project2"
       "project3"
       "project4"
-      "project5"
-      ;
+      "project5";
   }
-
 }
 
 #headline {
-  background-color: rgba(255,255,255,0.8);
-  border-bottom: 5px solid #004AAD;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-bottom: 5px solid #004aad;
   position: absolute;
   right: -50px;
   top: 100px;
@@ -42,14 +41,13 @@ body {
   max-width: 550px;
   z-index: 100;
 }
-.hero-videobg {           /* will add in later */
+.hero-videobg {
+  /* will add in later */
   position: fixed;
   right: 0;
   width: 100%;
   min-height: 100vh;
   z-index: -1;
-  
-
 }
 
 .heroGridArea {
@@ -68,17 +66,15 @@ body {
   grid-template-rows: 800px 200px 200px;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
-  "project1 project1"
-  "project2 project3"
-  "project4 project5"
-  ;
+    "project1 project1"
+    "project2 project3"
+    "project4 project5";
 }
 
 #project1 {
   grid-area: project1;
   background-image: url("/images/WEBCloud\ sm\(1\).png");
   background-repeat: no-repeat;
-
 }
 #project2 {
   grid-area: project2;
@@ -111,12 +107,12 @@ body {
 }
 
 .heading {
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0, 0, 0, 0.7);
   padding: 15px;
   height: 25px;
   color: white;
   font-size: 18px;
-  border-bottom: 5px solid #004AAD;
+  border-bottom: 5px solid #004aad;
 }
 .subHeading {
   text-align: center;
@@ -128,17 +124,14 @@ body {
   width: 200px;
   height: 200px;
   border-radius: 20%;
-  border: solid #004AAD 5px;
+  border: solid #004aad 5px;
   margin: 10px;
-  
 }
 .name {
   display: inline-flex;
-  justify-content: flex-start;  
+  justify-content: flex-start;
   min-width: auto;
 }
-
-
 
 /* Navigation CSS */
 /* CHECK OUT THIS CODE BELOW IF YOU WANT TO GET A REFRESHER ON FLEX */
@@ -172,7 +165,7 @@ body {
   cursor: pointer;
 }
 .highlight {
-  color: #004AAD;
+  color: #004aad;
   font-weight: 700;
 }
 
@@ -185,7 +178,7 @@ h1 {
 h2 {
   font-size: 24px;
   margin: 0px 0px;
-  color: #004AAD;
+  color: #004aad;
 }
 
 h3 {
@@ -255,8 +248,8 @@ li:active {
   color: purple;
 }
 #headline {
-  background-color: rgba(255,255,255,0.8);
-  border-bottom: 5px solid #004AAD;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-bottom: 5px solid #004aad;
   position: absolute;
   right: -50px;
   top: 100px;
@@ -265,14 +258,15 @@ li:active {
   z-index: 100;
 }
 
-
 #headline p {
   max-width: 350px;
   font-size: 16px;
   font-weight: 300;
   margin: 0px 0px;
-  color: #004AAD;
+  color: #004aad;
 }
 footer {
   font-family: Arial, Helvetica, sans-serif;
+}
+.footer-sitemap {
 }
