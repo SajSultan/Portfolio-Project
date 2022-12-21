@@ -17,13 +17,9 @@ body {
     position: static;
     margin: 20px;
   }
-  #heroGrid {
-    grid-template-areas: 
-      "featuredProduct featuredProduct"
-      "secondaryProduct CTA";
-  }
+ 
   #categoryGrid {
-    grid-template-rows: 300px 300px 300px 300px 300px;
+    grid-template-rows: 200px 200px 200px 200px 200px;
     grid-template-columns: 1fr;
     grid-template-areas: 
       "project1"
@@ -33,40 +29,6 @@ body {
       "project5"
       ;
   }
-
-}
-
-
-/* Grid CSS */
-
-#heroGrid {
-  margin: 0px 5%;
-  display: grid;
-  min-height: 550px;
-  height: 70vh;
-  grid-template-rows: 100% 0%;
-  grid-template-columns: 0% 50%;
-  grid-template-areas:
-  "featuredProduct featureProduct"
-  "featuredProduct featuredProduct"
-  ;
-}
-
-#featuredProduct {
-  grid-area: featuredProduct;
-  background-image: url("/css/images/02-portfolio-2.jpg");
-}
-
-#secondaryProduct {
-  grid-area: secondaryProduct;
-  background-image: url("/css/images/WEBCloud.svg");
-}
-
-#CTA {
-  grid-area: CTA;
-  background-image: url("/css/images/02-portfolio-2.jpg");
-  justify-content: space-around;
-  cursor: pointer;
 
 }
 
@@ -103,7 +65,7 @@ body {
 #categoryGrid {
   margin: 0px 5%;
   display: grid;
-  grid-template-rows: 500px 300px 300px;
+  grid-template-rows: 800px 200px 200px;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
   "project1 project1"
@@ -114,27 +76,28 @@ body {
 
 #project1 {
   grid-area: project1;
-  background-image: url("/css/images/WEBCloud.svg");
+  background-image: url("/images/WEBCloud\ sm\(1\).png");
+  background-repeat: no-repeat;
 
 }
 #project2 {
   grid-area: project2;
-  background-image: url("/css/images/WEBCloud.svg");
+  background-image: url("/images/WEBCloud\ sm\(1\).png");
 }
 
 #project3 {
   grid-area: project3;
-  background-image: url("/css/images/WEBCloud.svg");
+  background-image: url("/images/WEBCloud\ sm\(1\).png");
 }
 
 #project4 {
   grid-area: project4;
-  background-image: url("/css/images/WEBCloud.svg");
+  background-image: url("/images/WEBCloud\ sm\(1\).png");
 }
 
 #project5 {
   grid-area: project5;
-  background-image: url("/css/images/WEBCloud.svg");
+  background-image: url("/images/WEBCloud\ sm\(1\).png");
 }
 
 .categoryGridArea {
@@ -165,13 +128,13 @@ body {
   width: 200px;
   height: 200px;
   border-radius: 20%;
-  border: solid black 5px;
+  border: solid #004AAD 5px;
   margin: 10px;
   
 }
-.name-avatar {
+.name {
   display: inline-flex;
-  justify-content: space-around;  
+  justify-content: flex-start;  
   min-width: auto;
 }
 
@@ -205,7 +168,7 @@ body {
   width: 25%;
 }
 .icons img {
-  margin: 20px;
+  margin: 10px;
   cursor: pointer;
 }
 .highlight {
@@ -216,7 +179,7 @@ body {
 /* Typography CSS */
 h1 {
   font-size: 36px;
-  margin-bottom: 10px;
+  margin: 10px;
 }
 
 h2 {
