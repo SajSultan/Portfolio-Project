@@ -1,10 +1,11 @@
 body {
   font-family: 'Poppins', sans-serif;
+  color: #004AAD;
   
 }
 @media only screen and (max-width: 1000px)  {
   #navigation {
-    display: none;
+    display: contents;
   }
   .icons {
     margin-left: auto;
@@ -44,10 +45,10 @@ body {
   min-height: 550px;
   height: 70vh;
   grid-template-rows: 100% 0%;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 0% 50%;
   grid-template-areas:
   "featuredProduct featureProduct"
-  "featuredProduct CTA"
+  "featuredProduct featuredProduct"
   ;
 }
 
@@ -63,9 +64,10 @@ body {
 
 #CTA {
   grid-area: CTA;
-  background-image: url("/css/images/");
+  background-image: url("/css/images/02-portfolio-2.jpg");
   justify-content: space-around;
   cursor: pointer;
+
 }
 
 #headline {
@@ -101,7 +103,7 @@ body {
 #categoryGrid {
   margin: 0px 5%;
   display: grid;
-  grid-template-rows: 300px 300px 300px;
+  grid-template-rows: 500px 300px 300px;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
   "project1 project1"
@@ -165,8 +167,14 @@ body {
   border-radius: 20%;
   border: solid black 5px;
   margin: 10px;
-  z-index: -10;
+  
 }
+.name-avatar {
+  display: inline-flex;
+  justify-content: space-around;  
+  min-width: auto;
+}
+
 
 
 /* Navigation CSS */
