@@ -73,27 +73,27 @@ body {
 
 #project1 {
   grid-area: project1;
-  background-image: url("/images/WEBCloud\ sm\(1\).png");
+  background-image: url("../images/WEBCloudsm\(1\).png");
   background-repeat: no-repeat;
 }
 #project2 {
   grid-area: project2;
-  background-image: url("/images/WEBCloud\ sm\(1\).png");
+  background-image: url("../images/WEBCloudsm\(1\).png");
 }
 
 #project3 {
   grid-area: project3;
-  background-image: url("/images/WEBCloud\ sm\(1\).png");
+  background-image: url("../images/WEBCloudsm\(1\).png");
 }
 
 #project4 {
   grid-area: project4;
-  background-image: url("/images/WEBCloud\ sm\(1\).png");
+  background-image: url("../images/WEBCloudsm\(1\).png");
 }
 
 #project5 {
   grid-area: project5;
-  background-image: url("/images/WEBCloud\ sm\(1\).png");
+  background-image: url("../images/");
 }
 
 .categoryGridArea {
