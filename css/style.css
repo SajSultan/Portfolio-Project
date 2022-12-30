@@ -61,24 +61,27 @@ body {
 
 /* Category Grid CSS */
 #categoryGrid {
-  margin: 0px 5%;
+  margin: 200px 5%;
   display: grid;
-  grid-template-rows: 800px 200px 200px;
+  grid-template-rows: 800px 400px 400px;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
     "project1 project1"
     "project2 project3"
-    "project4 project5";
+    "project4 project5"
+    ;
 }
 
 #project1 {
   grid-area: project1;
   background-image: url("../images/WEBCloudsm\(1\).png");
   background-repeat: no-repeat;
+  margin: 10px;
 }
 #project2 {
   grid-area: project2;
   background-image: url("../images/WEBCloudsm\(1\).png");
+  margin: 10px;
 }
 
 #project3 {
