@@ -61,9 +61,9 @@ body {
 
 /* Category Grid CSS */
 #categoryGrid {
-  margin: 200px 5%;
+  margin: 20px 5%;
   display: grid;
-  grid-template-rows: 800px 400px 400px;
+  grid-template-rows: 400px 300px 300px;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
     "project1 project1"
@@ -76,12 +76,12 @@ body {
   grid-area: project1;
   background-image: url("../images/WEBCloudsm\(1\).png");
   background-repeat: no-repeat;
-  margin: 10px;
+ 
 }
 #project2 {
   grid-area: project2;
   background-image: url("../images/WEBCloudsm\(1\).png");
-  margin: 10px;
+  
 }
 
 #project3 {
@@ -96,7 +96,7 @@ body {
 
 #project5 {
   grid-area: project5;
-  background-image: url("../images/");
+  background-image: url("../images/WEBCloudsm\(1\).png");
 }
 
 .categoryGridArea {
@@ -124,6 +124,7 @@ body {
   margin: 50px auto;
 }
 .avatar {
+  display: block;
   width: 200px;
   height: 200px;
   border-radius: 20%;
@@ -131,7 +132,7 @@ body {
   margin: 10px;
 }
 .name {
-  display: inline-flex;
+  display: block;
   justify-content: flex-start;
   min-width: auto;
 }
